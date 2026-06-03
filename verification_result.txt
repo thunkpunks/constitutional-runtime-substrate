@@ -1,0 +1,28 @@
+VERIFICATION RESULT — Path 1 Source Tree
+========================================
+Source archive: thunkpunks-constitutional_runtime_substrate-main.zip
+Extracted to: /home/claude/thunkpunks-constitutional_runtime_substrate-main/
+Date: 2026-06-03T21:08:34Z
+
+Gate 1: pytest runtime/tests -q
+................................................................         [100%]
+496 passed in 0.71s
+
+Gate 2: python3 runtime/tests/test_closed_circuit_fixture.py
+  -> projection      : READY
+  -> FieldState      : Omega=0.7 tau=0.3 ...
+  -> gate (kernel)   : EXECUTE  reasons=['admissible_as_proposed']
+  -> receipt         : r-aa7617ad
+  -> lineage         : aa7617ad-20ac-4e58-b571-56c1696cf8f4
+  -> replay          : VERIFIED
+kernel decides, substrate remembers.
+
+RESULT: BOTH GATES PASSED.
+
+Spec generation authorised against this tree. API_SPEC.md generated.
+source_mapping_notes.md generated with per-field line references.
+
+Outputs:
+  - runtime/API_SPEC.md
+  - source_mapping_notes.md
+  - verification_result.txt
