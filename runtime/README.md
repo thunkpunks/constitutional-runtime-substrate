@@ -80,3 +80,4 @@ refusal conditions, correction path. Source code is not required reading.
 3. `REVIEWER_GUIDE.md` — per-artifact reviewer fields
 4. `BUILD_LEDGER.md` — built / experimentally-bounded / recorded-not-built / prohibited
 5. `CONSTRAINT_REGISTER.md` — enumerated constraints, each with enforcement and status
+7. API_SPEC.md - For the externally readable API surface, see `API_SPEC.md`.
