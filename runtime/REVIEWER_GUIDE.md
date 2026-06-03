@@ -115,3 +115,15 @@ reviewability gap. Open an issue with the artifact and the missing field.
    `python runtime/tests/test_closed_circuit_fixture.py` (2 min)
 5. This guide, for any artifact in question (variable)
 6. `BUILD_LEDGER.md` and `CONSTRAINT_REGISTER.md` for full picture
+
+## API Comprehension Checks
+
+A reviewer should not infer:
+
+- submission implies standing
+- EXECUTE implies legitimacy
+- receipt implies appeal
+- replay implies correction
+- absence implies roadmap
+
+Some absences are intentional boundaries, not unfinished features.
